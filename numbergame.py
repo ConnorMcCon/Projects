@@ -1,4 +1,3 @@
-#Connor McConaghy
 #Number game
 
 import random
