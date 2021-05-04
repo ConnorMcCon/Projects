@@ -1,4 +1,3 @@
-#Connor McConaghy
 #Dice Rolling Simulator
 
 import random
