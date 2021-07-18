@@ -1,0 +1,1486 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+<!-- Include meta tag to ensure proper rendering and touch 
+zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+ 
+
+<!-- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+ 
+ 
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="main.min.css" />
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- This is page 1 -->
+<div data-role="page" id="pageone">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Cinema</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+
+        <h2>Welcome to FilmHouse</h2>
+
+        <p>
+        Filmhouse is a world-class, 
+        three-screen independent cinema showing a wide range of films from all over the world, 
+        from quality crowd-pleasers and family films to esoteric arthouse works, 
+        via restored classics, 
+        retrospectives and themed seasons and festivals.
+        </p>
+        <br>
+        <p>
+        Our home at 88 Lothian Road is in a former church, 
+        which we took over in 1976 and commenced screenings in 1978. 
+        At first we had only one 90-seat screen (now Cinema 2), 
+        accessed via a back door on Chuckie Pend, off Morrison Street, 
+        but by 1985 the restoration work was complete, and Cinema 1, 
+        the bar and the front doors were opened. Cinema 3 was added in 1997.     
+        </p>
+
+        <img src="images/posters.jpg" class="img1">
+
+</div>
+
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the page 1-->
+
+<!-- This is sign up page -->
+<div data-role="page" id="signup">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Sign in/Sign up</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+<form method="post" action="demoform.asp">
+        <img src="images/cafebar.jpg" width="100%">
+        <div class="ui-field-contain">
+                <label for="textinput-1">Username:</label>
+                <input type="text" name="name" id="name" value="">
+        </div>
+        <div class="ui-field-contain">
+                <label for="textinput-2">Email:</label>
+                <input type="text" name="number" id="number" value="">
+        </div>
+        <div class="ui-field-contain">
+                <label for="textinput-3">Password:</label>
+                <input type="text" name="number" id="number" value="">
+        </div>
+
+        <a href="#confirmation" class="ui-btn ui-btn-inline">Sign in/Register</a>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the sign up page-->
+
+<!-- This is start of buy now page -->
+<div data-role="page" id="booknow">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>We Will Be Back Soon</h1>
+</div>
+
+<!-- This is main content -->
+
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the buy now page-->
+
+<!-- This is start of confirmation page -->
+<div data-role="page" id="confirmation">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+        <!-- This is header content -->
+        <div data-role="header">
+        <h1>We Will Be Back Soon</h1>
+        </div>
+        
+        <!-- This is main content -->
+        <div data-role="main" class="ui-content">
+        <h2>
+                We have received your request. Please wait for email confirmation
+        </h2>
+        </div>
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+        
+</div>
+<!-- This is the end of the confirmation page-->
+
+<!-- This is what's on page -->
+<div data-role="page" id="whatson">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#whatson" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#whatson" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>What's On</h1>
+</div>
+
+<!-- This is main content -->
+<!-- This is film 1 -->
+<div data-role="main" class="ui-content">
+<div data-role="collapsible">
+<h1>Film 1</h1>
+<img src="images/stray.png" height="220px" width="200px">
+</br>
+Release date:</br>
+09 April 2021</br>
+
+running time:</br>
+108 minutes</br>
+
+<p>
+Description here
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+
+<!-- This is film 2 -->
+<div data-role="collapsible">
+<h1>Film 2</h1>
+<img src="images/stray.png" height="220px" width="200px">
+</br>
+Release date:</br>
+30 April 2021</br>
+
+running time:</br>
+156 minutes</br>
+
+<p>
+Description here
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+<!-- This is film 3 -->
+<div data-role="collapsible">
+<h1>Film 3</h1>
+<img src="images/stray.png" height="220px" width="200px">
+</br>
+Release date:</br>
+05 May 2021</br>
+
+running time:</br>
+120 minutes</br>
+
+<p>
+Description here
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+<!-- This is film 4 -->
+<div data-role="collapsible">
+<h1>Film 4</h1>
+<img src="images/stray.png" height="220px" width="200px">
+</br>
+Release date:</br>
+20 May 2021</br>
+
+running time:</br>
+143 minutes</br>
+
+<p>
+Description here
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the whats on page-->
+
+<!-- This is about page -->
+<div data-role="page" id="about">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#about" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#about" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>About</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+
+        <h2>Filmhouse Past and Present</h2>
+
+        <p>
+        Filmhouse is a world-class, 
+        three-screen independent cinema showing a wide range of films from all over the world, 
+        from quality crowd-pleasers and family films to esoteric arthouse works, 
+        via restored classics, 
+        retrospectives and themed seasons and festivals.
+        </p>
+        <br>
+        <p>
+        Our home at 88 Lothian Road is in a former church, 
+        which we took over in 1976 and commenced screenings in 1978. 
+        At first we had only one 90-seat screen (now Cinema 2), 
+        accessed via a back door on Chuckie Pend, off Morrison Street, 
+        but by 1985 the restoration work was complete, and Cinema 1, 
+        the bar and the front doors were opened. Cinema 3 was added in 1997.     
+        </p>
+
+        <img src="images/The rider movie image.jpg" class="img1">
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the about page-->
+
+<!-- This is learning page -->
+<div data-role="page" id="learning">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#learning" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#learning" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>About</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+
+        <p>
+        As Scotland’s leading independent cinema, 
+        and a Europa Cinema Best Young Audience Award winner (2011), 
+        Filmhouse is internationally renowned as a venue for dynamic programming and debate. 
+        Our key aim is to challenge, inform and entertain through the delivery of an essential, 
+        intelligent and enlightening programme for all audiences, whether through formal education, 
+        informal courses or professional development.
+        </p>
+
+        <div class="container_text">
+        <a class="link" href="#primary">
+                <img src="images/The rider movie image.jpg" class="img2">
+                <div class="content_text">
+            <h1>Primary</h1>
+          </div>
+          </a>
+        </div>
+
+        <div class="container_text">
+        <a class="link" href="#secondary">
+                <img src="images/The rider movie image.jpg" class="img2">
+                <div class="content_text">
+            <h1>Secondary</h1>
+          </div>
+          </a>
+        </div>
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the learning page-->
+
+<!-- This is primary page -->
+<div data-role="page" id="primary">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#primary" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#primary" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Primary</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+
+        <h2>ONLINE FESTIVALS AND UPCOMING EVENTS</h2>
+
+        <p>
+        Due to Covid-19 our regular school screenings have been cancelled for this term.  
+        However, some of our most popular events will be available for you to access in your very own classroom. 
+        Filmhouse may be closed at the moment, but we still want to provide a film education service for you and your pupils. 
+        The Education Team has put together a list of suggested films and resources linked to the curriculum, 
+        which you can access online.
+        </p>
+        <br>
+
+        <h2>BECOME A MEMBER OF OUR TEACHER ADVISORY GROUP </h2>
+
+        <p>
+        We meet quarterly to discuss ideas and shape what we offer to local schools and teachers. 
+        From CLPL sessions to film-making workshops and curriculum linked screenings­ we want your help to shape our future plans, 
+        programme and resources. 
+        Come along to our ZOOM meeting for an informal 1h chat about what's involved with our Education and Learning Team.
+        </p>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the primary page-->
+
+<!-- This is secondary page -->
+<div data-role="page" id="secondary">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#secondary" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#secondary" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Secondary</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+
+        <h2>ONLINE FESTIVALS AND UPCOMING EVENTS</h2>
+
+        <p>
+        Due to Covid-19 our regular school screenings have been cancelled for this term.  
+        However, some of our most popular events will be available for you to access in your very own classroom. 
+        Filmhouse may be closed at the moment, 
+        but we still want to provide a film education service for you and your pupils. 
+        The Education Team has also put together a list of suggested films and resources linked to the curriculum, 
+        which you can access online. Have a read
+        </p>
+        <br>
+
+        <h2>BECOME A MEMBER OF OUR TEACHER ADVISORY GROUP </h2>
+
+        <p>
+        We meet quarterly to discuss ideas and shape what we offer to local schools and teachers. 
+        From CLPL sessions to film-making workshops and curriculum linked screenings­ we want your help to shape our future plans, 
+        programme and resources. 
+        Come along to our ZOOM meeting for an informal 1h chat about what's involved with our Education and Learning Team.
+        </p>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the secondary page-->
+
+<!-- This is Book now page -->
+<div data-role="page" id="book">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Book Now</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+<img src="images/cafebar.jpg" width="100%">
+
+<!-- This is the booking form -->
+<form method="post" action="demoform.asp">
+<input type="date" name="date" id="date" value="">
+<fieldset data-role="controlgroup">
+<legend>Film:</legend>
+        <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked">
+        <label for="radio-choice-1">One Flew Over The Cukoos Nest</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2">
+        <label for="radio-choice-2">Blade Runner</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3">
+        <label for="radio-choice-3">The Shining</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4">
+        <label for="radio-choice-4">Minority Report</label>
+</fieldset>
+<legend>Time:</legend>
+<fieldset data-role="controlgroup">
+        <input type="radio" name="radio-choice-2" id="radio-choice-5" value="choice-5" checked="checked">
+        <label for="radio-choice-5">9:10</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-6" value="choice-6">
+        <label for="radio-choice-6">11:40</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-7" value="choice-7">
+        <label for="radio-choice-7">13:30</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-8" value="choice-8">
+        <label for="radio-choice-8">15:00</label>
+</fieldset>
+<fieldset data-role="controlgroup">
+<legend>Number of People:</legend>
+        <input type="radio" name="radio-choice-3" id="radio-choice-9" value="choice-9" checked="checked">
+        <label for="radio-choice-9">One</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-10" value="choice-10">
+        <label for="radio-choice-10">Two</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-11" value="choice-11">
+        <label for="radio-choice-11">Three</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-12" value="choice-12">
+        <label for="radio-choice-12">Four</label>
+</fieldset>
+<a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+</form>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the Book now -->
+
+<!-- This is cafe page -->
+<div data-role="page" id="cafe">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Cafe</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+<img src="images/cafebar.jpg" width="100%">
+
+<p>Fresh, affordable and imaginative food and a great choice of hot and cold beverages.</p>
+
+<p>We are so excited to announce that Filmhouse Café Bar will reopen on Monday 31st May, alongside Filmhouse's cinemas! We can't wait to welcome you back.</p>
+
+<a href="#table" class="ui-btn ui-btn-inline">Book A table</a>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the cafe page -->
+
+
+<!-- This is Book table -->
+<div data-role="page" id="table">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#pageone" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Book Table</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+<img src="images/cafebar.jpg" width="100%">
+
+<!-- This is the booking form -->
+<form method="post" action="demoform.asp">
+<input type="date" name="date" id="date" value="">
+<input type="time" name="time" id="time" value="">
+<input type="range" name="slider" id="slider" value="1" min="1" max="20">
+<a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+</form>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the book table -->
+
+<!-- This is payment -->
+<div data-role="page" id="pay">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Payment</h2> 
+        
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+ <a href="#learning" class="ui-btn">Learning</a>
+ <a href="#cafe" class="ui-btn">Cafe bar</a>
+ <a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+        
+ <a href="#payment" data-rel="close">Close Panel</a>
+</div>
+         
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+        
+<form method="post" action="demoform.asp"> 
+ <label for="search"></label>
+ <input type="search" name="search" id="search" placeholder="Search..."> 
+ </form>
+        
+<a href="#search" class="ui-btn">Search</a>
+        
+<a href="#payment" data-rel="close">Close Panel</a>
+ </div>
+         
+<!-- This is header content -->
+<div data-role="header">
+<h1>Payment Details</h1>
+ </div>
+        
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+<img src="images/cafebar.jpg" width="100%">    
+
+ <!-- This is the payment form -->
+<form method="post" action="demoform.asp">
+<div class="ui-field-contain">
+        <label for="textinput-1">Name on Card:</label>
+        <input type="text" name="name" id="name" value="">
+</div>
+<div class="ui-field-contain">
+        <label for="textinput-2">Card Number:</label>
+        <input type="text" name="number" id="number" value="">
+</div>
+<div class="ui-field-contain">
+            <label for="select-native-1">Card Type:</label>
+            <select name="type" id="type">
+                <option value="small">Visa</option>
+                <option value="medium">Master Card</option>
+                <option value="large">Other</option>
+            </select>
+        </div>
+
+ <div class="ui-field-contain">
+            <fieldset data-role="controlgroup" data-type="horizontal">
+                <legend>Exp Date:</legend>
+                <label for="select-h-1a">Month</label>
+                <select name="select-h-1a" id="select-h-1a">
+                    <option value="#">1</option>
+                    <option value="#">2</option>
+                    <option value="#">3</option>
+                    <option value="#">4</option>
+                    <option value="#">5</option>
+                    <option value="#">6</option>
+                    <option value="#">7</option>
+                    <option value="#">8</option>
+                    <option value="#">9</option>
+                    <option value="#">10</option>
+                    <option value="#">11</option>
+                    <option value="#">12</option>
+                </select>
+                <label for="select-h-1b">Year</label>
+                <select name="select-h-1b" id="select-h-1b">
+                    <option value="#">2021</option>
+                    <option value="#">2022</option>
+                    <option value="#">2023</option>
+                    <option value="#">2024</option>
+                    <option value="#">2025</option>
+                    <option value="#">2026</option>
+                </select>
+            </fieldset>
+        </div>
+
+<div class="ui-field-contain">
+        <label for="textinput-1">CVV:</label>
+        <input type="text" name="cvvv" id="cvv" value="">
+</div>
+        
+<a href="#confirmation" class="ui-btn ui-btn-inline">Payment</a>
+</form>
+
+</div>
+        
+ <!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+        
+</div>
+ <!-- This is the end of the payment -->
+
+ <!-- This is latest page -->
+<div data-role="page" id="latest">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#latest" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#latest" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Latest Movies</h1>
+</div>
+
+<!-- This is main content -->
+<!-- This is film 1 -->
+<div data-role="main" class="ui-content">
+<div data-role="collapsible">
+<h1>Latest Animated</h1>
+<img src="images/train.jpg" height="220px" width="50%">
+</br>
+Release date:</br>
+09 April 2021</br>
+
+running time:</br>
+108 minutes</br>
+
+<p>
+Demon slayer mugan train
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+
+<!-- This is film 2 -->
+<div data-role="collapsible">
+<h1>Latest Westen</h1>
+<img src="images/news.jpg" height="220px" width="50%">
+</br>
+Release date:</br>
+30 April 2021</br>
+
+running time:</br>
+156 minutes</br>
+
+<p>
+News of the World
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+<!-- This is film 3 -->
+<div data-role="collapsible">
+<h1>Latest Adventure</h1>
+<img src="images/monsters.jpg" height="220px" width="50%">
+</br>
+Release date:</br>
+05 May 2021</br>
+
+running time:</br>
+120 minutes</br>
+
+<p>
+Love and Monsters
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+<!-- This is film 4 -->
+<div data-role="collapsible">
+<h1>Latest Thriller</h1>
+<img src="images/little.jpg" height="220px" width="200px">
+</br>
+Release date:</br>
+20 May 2021</br>
+
+running time:</br>
+143 minutes</br>
+
+<p>
+The Little Things
+</p>
+
+Cast:<br>
+Director:<br>
+Showing in:</br>
+
+<a href="#book" class="ui-btn ui-btn-inline">Book Now</a>
+
+</div>
+
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the latest page-->
+
+ <!-- This is membership page -->
+ <div data-role="page" id="member">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#member" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#member" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Memberships</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+        
+        <h3>Under 16's</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <h3>16 - 25</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <h3>25 - 60</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <h3>60 and over</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the membership page-->
+
+ <!-- This is shop page -->
+ <div data-role="page" id="shop">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#shop" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#shop" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Shop</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+        
+        <img src="images/poster.jpg" height="220px" width="40%">
+        <h3>Poster - £15</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <br>
+
+        <img src="images/mug.jpg" height="220px" width="40%">
+        <h3>Mug - £5</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <br>
+
+        <img src="images/tshirt.jpg" height="220px" width="40%">
+        <h3>T Shirt - £15</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+        <br>
+
+        <img src="images/bottle.jpg" height="220px" width="40%">
+        <h3>Water Bottle - £5</h3>
+        <a href="#pay" class="ui-btn ui-btn-inline">Continue to Payment</a>
+
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the shop page-->
+
+<!-- This is contact us page -->
+<div data-role="page" id="contact">
+
+<!-- This is my main menu panel -->
+<div data-role="panel" id="myPanel"> 
+<h2>Menu</h2> 
+
+<a href="#pageone" class="ui-btn">Home</a>
+<a href="#whatson" class="ui-btn">What's on</a>
+<a href="#about" class="ui-btn">About</a>
+<a href="#learning" class="ui-btn">Learning</a>
+<a href="#cafe" class="ui-btn">Cafe bar</a>
+<a href="#latest" class="ui-btn">Latest</a>
+<a href="#member" class="ui-btn">Membership</a>
+<a href="#shop" class="ui-btn">Shop</a>
+<a href="#contact" class="ui-btn">Contact us</a>
+
+<a href="#contact" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is my search panel -->
+<div data-role="panel" id="myPanel2" data-position="right"> 
+<h2>I'm searching for...</h2> 
+
+<form method="post" action="demoform.asp"> 
+<label for="search"></label>
+<input type="search" name="search" id="search" placeholder="Search..."> 
+</form>
+
+<a href="#search" class="ui-btn">Search</a>
+
+<a href="#contact" data-rel="close">Close Panel</a>
+</div>
+ 
+<!-- This is header content -->
+<div data-role="header">
+<h1>Contact Us</h1>
+</div>
+
+<!-- This is main content -->
+<div data-role="main" class="ui-content">
+        
+<form action="/action_page.php">
+
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <input type="text" id="email" name="email" placeholder="Email..">
+        <input type="text" id="mobile" name="mobile" placeholder="Mobile..">
+                <input id="enquiry" style="height:100px" name="enquiry" placeholder="What is your enquiry..">
+        </form>
+        <a href="#confirmation" class="ui-btn ui-btn-inline">Send</a>
+        
+</div>
+
+<!-- This is footer content -->
+<div data-role="footer">
+<table width="100%" border="0">
+<tr>
+<td width="25%" align="center"><a href="#myPanel" class="ui-btn ui-icon-bars ui-btn-icon-notext">Home</a>
+<td width="25%" align="center"><a href="#signup" class="ui-btn ui-icon-user ui-btn-icon-notext">Search</a>
+<td width="25%" align="center"><a href="#myPanel2" class="ui-btn ui-icon-search ui-btn-icon-notext">Search</a>
+</tr>
+</table>
+</div>
+
+</div>
+<!-- This is the end of the contactus page-->
+</body
+</html>
